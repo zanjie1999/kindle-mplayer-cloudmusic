@@ -1,0 +1,1 @@
+https://cupinkie.com/kindle-mplayer-cloudmusic.html

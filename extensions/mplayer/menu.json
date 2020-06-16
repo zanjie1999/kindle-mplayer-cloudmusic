@@ -1,0 +1,24 @@
+{
+	"items": [
+		{
+			"name": "MPlayer",
+			"priority": 1,
+			"items": [
+				{"name": "alsamixer", "priority": 1, "action": "/mnt/us/extensions/kterm/bin/kterm.sh -e alsamixer", "params": ""},
+				{"name": "MPlayer playall", "priority": 2, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "playall"},
+				{"name": "MPlayer shuffle", "priority": 3, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "playrand"},
+				{"name": "MPlayer pause", "priority": 4, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "pause"},
+				{"name": "MPlayer stop", "priority": 5, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "stop"},
+				{"name": "MPlayer prev", "priority": 6, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "prev"},
+				{"name": "MPlayer next", "priority": 7, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "next"},
+				{"name": "MPlayer vol up", "priority": 8, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "volup"},
+				{"name": "MPlayer vol dn", "priority": 9, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "voldn"},
+				{"name": "MPlayer mute", "priority": 10, "action": "/mnt/us/extensions/mplayer/mplayer.sh", "params": "mute"},
+				{"name": "网易云 我喜欢的音乐", "priority": 11, "action": "python3 /mnt/us/extensions/mplayer/make_playlist.py 21777546 1", "params": ""},
+				{"name": "网易云 精选", "priority": 11, "action": "python3 /mnt/us/extensions/mplayer/make_playlist.py 2279809206 1", "params": ""},			
+				{"name": "网易云 闹钟", "priority": 11, "action": "python3 /mnt/us/extensions/mplayer/make_playlist.py 2236121100 1", "params": ""},				
+				{"name": "网易云 kindle", "priority": 11, "action": "python3 /mnt/us/extensions/mplayer/make_playlist.py 4901078147 1", "params": ""}
+			]
+		}
+	]
+}
